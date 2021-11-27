@@ -27,6 +27,10 @@ html,body{
     background-color: black;
     color: white;
 }
+.webname a{
+    text-decoration: none;
+    color: white;
+}
 .navof-blog{
     position: absolute;
     max-width: 100%;
@@ -83,13 +87,26 @@ html,body{
     opacity: 0.7;
    }
 /*  */
-.solotravelers{
+.solotravelers,.culture,.family,.special{
     position: absolute;
     margin-left: 14%;
   margin-top: 12%;
   font-size: 36px;
   color: white;
   background-color: rgb(0, 0, 0,0.7);
+}
+.culture{
+    margin-left: 54%;
+    margin-top: 12%;
+}
+.family{
+    margin-left: 14%;
+    margin-top: 37%;
+}
+.special{
+    margin-left: 47%;
+    margin-top: 38%;
+    font-size: 30px;
 }
 .catagory-three,.catagory-four{
     max-width: 350px;
@@ -107,9 +124,6 @@ html,body{
  */
  /* 
   */
-  /* ================================STORIES========================================= */
-  /* 
-   */
  /* ===========================hottours=========================== */
  .hottours{
      clear: both;
@@ -168,6 +182,7 @@ html,body{
       max-height: 200px;
       min-height: 100px;
       position: relative;
+      margin-bottom: 15%;
   }
 .recent-stories1{
     max-width: 600px;
@@ -176,6 +191,7 @@ html,body{
     min-height: 150px;
     position: relative;
     clear: left;
+    
 }
 .stories-content{
     margin-left: 20%;
@@ -198,4 +214,39 @@ html,body{
     color: red;
     opacity: 0.7;
     background-color: rgb(70, 130, 180,0.75);
+   }
+   .hotels,.flight{
+       max-width: 800px;
+       min-width: 400px;
+       max-height: 400px;
+       min-height: 300px;
+       padding: 3%;
+       position: relative;
+       margin: 5%;
+   }
+   .flight-deals,.hotel-deals{
+    float: left;
+   }
+   /* 
+    */
+    /* ======== */
+    .booking-portal{
+        clear: both;
+        background-image: url(https://dm2306files.storage.live.com/y4mVi-Jsmornrr6DP6_r0mQKEHWBaRsr7vYP0PyiNyTJ122KkEAVj1DcBLFIypfwhUyVWvyoAt7-W4m3hPQzyNFUSC8Jk9GAmNq8uJC2JHvy2Phs9bzq1tDlE2uyps6DoQJUTV_DNrjzTqFJv2xEheZ1A8ENbIvt6nRt2BsqKrS26L-fsR9P_tHaHF0JCiX0xJ2?width=1920&height=1080&cropmode=none);
+        position: relative;
+    }
+   .book-planes{
+       background-color: rgb(128, 128, 128,0.75);
+       text-align: center;
+       padding: 10px;
+       font-size: 36px;
+       margin-bottom: 10%;
+       margin-top: 10%;
+   }
+   .book-hotels{
+       background-color: rgb(210, 105, 30,0.75);
+       text-align: center;
+       padding: 10px;
+       font-size: 36px;
+margin-bottom: 5%;
    }
