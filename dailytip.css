@@ -9,10 +9,10 @@ html,body{
 .container-of-blogimg, .blogmain-img{
     position: relative;
     max-width: 100%;
-    min-width: 750px;
+    min-width: 70%;
     margin-top: -0.5%;
-    max-height: 650px;
-    min-height: 550px;
+    max-height: 800px;
+    min-height: 500px;
 }
 .webname{
     position: absolute;
@@ -59,9 +59,10 @@ html,body{
     opacity: 0.7;
     background-color: rgb(64, 224, 208,0.72);
 }
+/* =========================ended============================== */
 /* 
 */
-/* blog-catogiries */
+/* =======================blog-catogiries========================== */
 .catagory-one, .catagory-two {
     max-width: 350px;
     min-width: 250px;
@@ -100,3 +101,40 @@ html,body{
     margin-left: 12%;
     margin-bottom: 8%;
 }
+/* =========================ended============================== */
+/* 
+ */
+ /* ===========================hottours=========================== */
+ .hottours{
+     clear: both;
+     margin-left: 8.5%;
+ }
+ .hot-topic1,.hot-topic2,.hot-topic3,.hot-topic4{
+     position: relative;
+     float: left;
+     max-width: 170px;
+     min-width: 150px;
+     max-height: 170px;
+     min-height: 150px;
+     margin: 2.5%
+ }
+ .hot-topic1:hover,.hot-topic2:hover,.hot-topic3:hover,.hot-topic4:hover{
+     opacity: 0.7;
+ }
+ /* =========================ended============================== */
+ /* 
+  */
+  /* ======================footer================== */
+
+  footer{
+     text-align: center;
+     clear: both;
+     background-color: black;
+     padding: 8.5%;
+     color: white;
+ }
+ .blog-social{
+     width: 45px;
+     height: 45px;
+     padding: 8.5px;
+ }
