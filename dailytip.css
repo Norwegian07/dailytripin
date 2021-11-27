@@ -1,5 +1,7 @@
 html,body{
     width: 100%;
+    margin: auto;
+
 }
 
 /*----------------- blog page--------------- */
@@ -8,8 +10,7 @@ html,body{
 */
 .container-of-blogimg, .blogmain-img{
     position: relative;
-    max-width: 100%;
-    min-width: 70%;
+    width: 100%;
     margin-top: -0.5%;
     max-height: 800px;
     min-height: 500px;
@@ -132,9 +133,18 @@ html,body{
      background-color: black;
      padding: 8.5%;
      color: white;
+     max-width: 100%;
+     min-width: 60%;
+     height: auto;
  }
  .blog-social{
      width: 45px;
      height: 45px;
      padding: 8.5px;
  }
+ @media screen and (max-width: 800px) {
+    .hottours {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
