@@ -8,7 +8,8 @@ html,body{
 */
 .container-of-blogimg, .blogmain-img{
     position: relative;
-    width: 100%;
+    max-width: 100%;
+    min-width: 750px;
     margin-top: -0.5%;
     max-height: 650px;
     min-height: 550px;
@@ -27,6 +28,8 @@ html,body{
 }
 .navof-blog{
     position: absolute;
+    max-width: 100%;
+    min-width: 70%;
     top: 40%;
     left: 15%;
     font-size: 30px;
