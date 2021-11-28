@@ -259,12 +259,7 @@ position: absolute;
      height: 45px;
      padding: 8.5px;
  }
- /* @media screen and (max-width: 800px) {
-    .hottours {
-      flex: 50%;
-      max-width: 50%;
-    }
-  } */
+ 
   /* ================================================================================ */
   /* =========================================================================================== */
   /* 
@@ -368,4 +363,12 @@ margin-bottom: 5%;
     width: 45px;
     height: 45px;
     padding: 8.5px;
+}
+
+/* responsive */
+@media screen and (max-width: 750px) {
+    .quote-home {
+      left: 240px;
+      right: 240px;
+    }
 }
