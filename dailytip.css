@@ -366,9 +366,9 @@ margin-bottom: 5%;
 }
 
 /* responsive */
-@media screen and (max-width: 650px) {
+/* @media screen and (max-width: 650px) {
     .quote-home {
       left: 100px;
       top: 240px;
     }
-}
+} */
