@@ -14,8 +14,8 @@ html,body{
 }
 .quote-home{
 position: absolute;
-    top: 270px;
-    left: 270px;
+     top: 240px;
+    left: 240px; 
     font-size: 64px;
     font-family: cursive;
     padding: 5px;
@@ -368,7 +368,7 @@ margin-bottom: 5%;
 /* responsive */
 @media screen and (max-width: 750px) {
     .quote-home {
-      left: 230px;
-      top: 230px;
+      left: 240px;
+      right: 240px;
     }
 }
