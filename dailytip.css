@@ -3,7 +3,94 @@ html,body{
     margin: auto;
 
 }
+/*======================== home ===================== */
 
+.blogmain-img1{
+    max-height: 700px;
+    min-height: 600px;
+    position: relative;
+    width: 100%;
+    margin-top: -0.5%;
+}
+/* overlay */
+
+.overlay{
+    background-color: black;
+    width: 50%;
+    max-height: 850px;
+    min-height: 700px;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    transition: 0.5s;
+    top: 0px;
+
+}
+
+.overlay-content{
+    position: relative;
+    top: 0%;
+    width: 50%;
+    text-align: center;
+    margin-top: 80px;
+
+}
+
+.overlay a:hover,.overlay:focus{
+    color: grey;
+}
+
+.overlay a{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 32px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    margin-bottom: 25px;
+}
+
+.closebtn{
+    position: absolute;
+    top: 50px;
+    left: 600px;
+    font-size: 200px;
+}
+.openbtn{
+    position: absolute;
+    top: 70px;
+    left: 35px;
+    font-size: 65px;
+}
+.topics-home{
+    max-width: 320px;
+    height: 350px;
+    border: 2px solid black;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 1%;
+    margin-bottom: 5%;
+    float: left;
+    border: none;
+}
+.homecontent-img{
+   width: 300px;
+   height: 200px;
+   position: relative;
+ 
+}
+.topics-home2{
+    max-width: 320px;
+    height: 350px;
+    border: 2px solid black;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 1%;
+    margin-bottom: 5%;
+    clear: right;
+    float: left;
+    border: none;
+}
 /*----------------- blog page--------------- */
 /* body 
     blogmain=img
@@ -230,6 +317,7 @@ html,body{
    /* 
     */
     /* ======== */
+
     .booking-portal{
         clear: both;
         background-image: url(https://dm2306files.storage.live.com/y4mVi-Jsmornrr6DP6_r0mQKEHWBaRsr7vYP0PyiNyTJ122KkEAVj1DcBLFIypfwhUyVWvyoAt7-W4m3hPQzyNFUSC8Jk9GAmNq8uJC2JHvy2Phs9bzq1tDlE2uyps6DoQJUTV_DNrjzTqFJv2xEheZ1A8ENbIvt6nRt2BsqKrS26L-fsR9P_tHaHF0JCiX0xJ2?width=1920&height=1080&cropmode=none);
