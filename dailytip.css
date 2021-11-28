@@ -368,7 +368,7 @@ margin-bottom: 5%;
 /* responsive */
 @media screen and (max-width: 750px) {
     .quote-home {
-      left: 240px;
-      right: 240px;
+      left: 230px;
+      top: 230px;
     }
 }
