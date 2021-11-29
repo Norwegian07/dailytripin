@@ -184,23 +184,25 @@ position: absolute;
 /*  */
 .solotravelers,.culture,.family,.special{
     position: absolute;
-    margin-left: 14%;
-  margin-top: 12%;
   font-size: 36px;
   color: white;
   background-color: rgb(0, 0, 0,0.7);
 }
+.solotravelers{
+    margin-left: 200px ;
+    margin-top: 170px;
+}
 .culture{
-    margin-left: 54%;
-    margin-top: 12%;
+    margin-left: 800px;
+    margin-top: 170px;
 }
 .family{
-    margin-left: 14%;
-    margin-top: 37%;
+    margin-left: 200px;
+    margin-top: 550px;
 }
 .special{
-    margin-left: 47%;
-    margin-top: 38%;
+    margin-left: 710px;
+    margin-top: 550px;
     font-size: 30px;
 }
 .catagory-three,.catagory-four{
