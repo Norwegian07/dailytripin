@@ -1,0 +1,139 @@
+body,html{
+    width: 963px;
+    margin: auto;
+}
+/* =========================================================== */
+/*NAv*/
+li,nav{
+    display: inline;
+    padding: 15px;
+    padding-top: -5px;
+    color: white;
+}
+nav{
+    border: white solid 2px;
+    border: none;
+    font-size: 20px;
+  text-align: center;
+    /*padding-bottom: 50px;*/
+} 
+ul.navi{
+    padding: 5px;
+    text-align: center;
+    background-color: black;
+}
+/* ======================================================= */
+/*headings*/
+h1.pagetitle{
+    font-size: 24px;
+    font-family: Georgia;
+    text-align: center;
+    clear: both;
+}
+ 
+ 
+/* ======================
+================================================= */
+/* ===============
+===============  LISTS  ====================== */
+li.list{
+    display: block;
+    clear: left;
+    text-decoration: none;
+    font-size: 18px;
+}
+ul.list{
+text-decoration: none;
+
+}
+.cnav{
+    border: solid grey 3.5px;
+    width: 350px;
+    text-decoration: none;
+}
+h1.h_c{
+    text-align: left;
+    clear: left;
+}
+h2{
+    
+    font-size: 26px;
+}
+li.tpb{
+    color: #000000;
+    display: block;
+    text-decoration: dotted;
+    font-size: 18.5px;
+}
+/* =============
+==================================================== */
+/* ------ paragraph  SIZEEE --------*/
+p.blogg{
+ font-size: 24px;
+ padding: 12px;
+}
+figcaption{
+    font-size: 12px;
+    padding-left: 25px;
+}
+/* IMAGES========
+============================================================ */
+.a_f_1{
+    width: 750px;
+    height: 550px;
+}
+.a_wf_1,.h_b_v1{
+    width: 400px;
+    height: 450px;
+}
+.a_v1{
+    width: 750px;
+    height: 550px;
+}
+.upp{
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    margin-left: 50%;
+}
+.h_b_v{
+    width: 750px;
+    height: 550px;
+}
+.h_b_v2{
+    width: 700px;
+    height: 450px;
+}
+.a_m_p1{
+    width: 700px;
+    height: 450px;  
+}
+.museum{
+    width: 600px;
+    height: 700px; 
+}
+.museum10{
+    width: 600px;
+    height: 400px;
+}
+.museum06{
+    width: 500px;
+    height: 400px;
+}
+/* ============ */
+
+/* ============================
+=============================================================== */
+/* FOOTER */
+footer{
+    clear: both;
+    text-align: center;
+    border: solid white 2px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    border: none;
+}
+/* ================================================== */
+hr.main_cd{
+    height: 8.5px;
+}
