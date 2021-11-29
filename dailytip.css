@@ -8,20 +8,22 @@ html,body{
 .blogmain-img1{
     max-height: 700px;
     min-height: 600px;
-    position: relative;
+    position: sticky;
     width: 100%;
     margin-top: -0.5%;
 }
 .quote-home{
 position: absolute;
-     top: 240px;
-    left: 100px; 
+     top: 38%;
+    left: 20%; 
     font-size: 64px;
     font-family: cursive;
     padding: 5px;
     color: orangered;
     opacity: 0.7;
     background-color: rgb(64, 224, 208,0.72);
+    max-width: 100%;
+    min-width: 50%;
 }
 /* overlay */
 
@@ -150,7 +152,7 @@ position: absolute;
 .navof-blog a:hover{
     color: blue;
 }
-.quote-blog{
+.quote-blog,.quote-stories,.quote-blog-flights{
     position: absolute;
     top: 20%;
     left: 22%;
@@ -160,6 +162,10 @@ position: absolute;
     color: orangered;
     opacity: 0.7;
     background-color: rgb(64, 224, 208,0.72);
+}
+.quote-stories{
+    top: 20%;
+    left: 12%;
 }
 /* =========================ended============================== */
 /* 
@@ -241,24 +247,6 @@ position: absolute;
  /* =========================ended============================== */
  /* 
   */
-  /* ======================footer================== */
-
-  footer{
-     text-align: center;
-     clear: both;
-     background-color: rgb(0, 0, 0,0.85);
-     padding: 5%;
-     color: white;
-     max-width: 100%;
-     min-width: 60%;
-     height: auto;
-     margin-bottom: 2%;
- }
- .blog-social{
-     width: 45px;
-     height: 45px;
-     padding: 8.5px;
- }
  
   /* ================================================================================ */
   /* =========================================================================================== */
@@ -287,6 +275,10 @@ position: absolute;
 }
 .stories-content{
     margin-left: 20%;
+}
+.quote-blog-flights{
+    top: 20%;
+    left: 17%;
 }
 /* 
  */
