@@ -1,0 +1,358 @@
+html,body{
+    width: 100%;
+    margin: auto;
+
+}
+/*======================== home ===================== */
+
+.blogmain-img1{
+    max-height: 700px;
+    min-height: 600px;
+    position: sticky;
+    width: 100%;
+    margin-top: -0.5%;
+}
+.quote-home{
+position: absolute;
+    font-size: 64px;
+    font-family: cursive;
+    color: orangered;
+    opacity: 0.7;
+    background-color: rgb(64, 224, 208,0.72);
+ margin-top: -380px;
+ margin-left: 100px;
+}
+/* overlay */
+
+.overlay{
+    background-color: black;
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    transition: 0.5s;
+    top: 0px;
+
+}
+
+.overlay-content{
+    position: relative;
+    top: 0%;
+    width: 50%;
+    text-align: center;
+    margin-top: 80px;
+
+}
+
+.overlay a:hover,.overlay:focus{
+    color: grey;
+}
+
+.overlay a{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 32px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    margin-bottom: 25px;
+}
+
+.overlay .closebtn{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    font-size: 65px;
+}
+.openbtn{
+    position: absolute;
+    top: 90px;
+    left: 40px;
+    font-size: 65px;
+}
+.topics-home{
+    max-width: 320px;
+    height: 350px;
+    border: 2px solid black;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 1%;
+    margin-bottom: 5%;
+    float: left;
+    border: none;
+}
+.homecontent-img{
+   width: 300px;
+   height: 200px;
+   position: relative;
+ 
+}
+.topics-home2{
+    max-width: 320px;
+    height: 350px;
+    border: 2px solid black;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 1%;
+    margin-bottom: 5%;
+    clear: right;
+    float: left;
+    border: none;
+}
+/*----------------- blog page--------------- */
+/* body 
+    blogmain=img
+*/
+ .blogmain-img{ 
+    position: relative;
+    width: 100%;
+    margin-top: -0.5%;
+    max-height: 600px;
+    min-height: 500px;
+}
+.webname{
+    position: absolute;
+    top: 35px;
+    left: 45px;
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    opacity: 0.65;
+    border: solid 2px black;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+.webname a{
+    text-decoration: none;
+    color: white;
+}
+.navof-blog{
+    position: absolute;
+   margin-top: -230px;
+  margin-left: 200px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid black;
+    background-color: rgb(0, 0, 0,0.85);
+}
+.navof-blog a,.navof-blog li{
+    display: inline;
+    padding: 20px;
+    margin: 1;
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+.navof-blog a:hover{
+    color: blue;
+}
+.quote-blog,.quote-stories{
+    position: absolute;
+    margin-top: -380px;
+ margin-left: 80px;
+    font-size: 64px;
+    font-family: cursive;
+    padding: 5px;
+    color: orangered;
+    opacity: 0.7;
+    background-color: rgb(64, 224, 208,0.72);
+}
+
+/* =========================ended============================== */
+/* 
+*/
+/* =======================blog-catogiries========================== */
+.catagory-one, .catagory-two {
+    max-width: 350px;
+    min-width: 250px;
+    max-height: 350px;
+    min-height: 250px;
+    position: relative;
+    float: left;
+    margin-left: 12%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  
+}
+.catagory-one:hover,.catagory-two:hover{
+ opacity: 0.7;
+}
+.catagory-three:hover,.catagory-four:hover{
+    opacity: 0.7;
+   }
+/*  */
+.solotravelers,.culture,.family,.special{
+    position: absolute;
+    margin-left: 14%;
+  margin-top: 12%;
+  font-size: 36px;
+  color: white;
+  background-color: rgb(0, 0, 0,0.7);
+}
+.culture{
+    margin-left: 54%;
+    margin-top: 12%;
+}
+.family{
+    margin-left: 14%;
+    margin-top: 37%;
+}
+.special{
+    margin-left: 47%;
+    margin-top: 38%;
+    font-size: 30px;
+}
+.catagory-three,.catagory-four{
+    max-width: 350px;
+    min-width: 250px;
+    max-height: 350px;
+    min-height: 250px;
+    position: relative;
+    clear: right;
+    float: left;
+    margin-left: 12%;
+    margin-bottom: 8%;
+}
+/* =========================ended============================== */
+/* 
+ */
+ /* 
+  */
+ /* ===========================hottours=========================== */
+ .hottours{
+     clear: both;
+     margin-left: 8.5%;
+ }
+ .hot-topic1,.hot-topic2,.hot-topic3,.hot-topic4{
+     position: relative;
+     float: left;
+     max-width: 170px;
+     min-width: 150px;
+     max-height: 170px;
+     min-height: 150px;
+     margin: 2.5%
+ }
+ .hot-topic1:hover,.hot-topic2:hover,.hot-topic3:hover,.hot-topic4:hover{
+     opacity: 0.7;
+ }
+ /* =========================ended============================== */
+ /* 
+  */
+ 
+  /* ================================================================================ */
+  /* =========================================================================================== */
+  /* 
+   */
+  /* ==========--------------=====stories============-------------============== */
+  aside{
+      float: left;
+  }
+  .topstories1{
+      max-width: 180px;
+      min-width: 100px;
+      max-height: 200px;
+      min-height: 100px;
+      position: relative;
+      margin-bottom: 15%;
+  }
+.recent-stories1{
+    max-width: 600px;
+    min-width: 150px;
+    max-height: 350px;
+    min-height: 150px;
+    position: relative;
+    clear: left;
+    
+}
+.stories-content{
+    margin-left: 20%;
+}
+.quote-blog-flights{
+    top: 20%;
+    left: 17%;
+}
+/* 
+ */
+ /* 
+  */
+  /* ==================================END============================== */
+  /* 
+   */
+   /* ========================FLIGHTS AND HOTELS=============================== */
+   .quote-blog-flights{
+    position: absolute;
+   margin-top: --380px;
+   margin-left: 100px;
+    font-size: 64px;
+    font-family: cursive;
+    padding: 5px;
+    color: red;
+    opacity: 0.7;
+    background-color: rgb(70, 130, 180,0.75);
+   }
+   .hotels,.flight{
+       max-width: 800px;
+       min-width: 400px;
+       max-height: 400px;
+       min-height: 300px;
+       padding: 3%;
+       position: relative;
+       margin: 5%;
+   }
+   .flight-deals,.hotel-deals{
+    float: left;
+   }
+   /* 
+    */
+    /* ======== */
+
+    .booking-portal{
+        clear: both;
+        background-image: url(https://dm2306files.storage.live.com/y4mVi-Jsmornrr6DP6_r0mQKEHWBaRsr7vYP0PyiNyTJ122KkEAVj1DcBLFIypfwhUyVWvyoAt7-W4m3hPQzyNFUSC8Jk9GAmNq8uJC2JHvy2Phs9bzq1tDlE2uyps6DoQJUTV_DNrjzTqFJv2xEheZ1A8ENbIvt6nRt2BsqKrS26L-fsR9P_tHaHF0JCiX0xJ2?width=1920&height=1080&cropmode=none);
+        position: relative;
+    }
+   .book-planes{
+       background-color: rgb(128, 128, 128,0.75);
+       text-align: center;
+       padding: 10px;
+       font-size: 36px;
+       margin-bottom: 10%;
+       margin-top: 10%;
+   }
+   .book-hotels{
+       background-color: rgb(210, 105, 30,0.75);
+       text-align: center;
+       padding: 10px;
+       font-size: 36px;
+margin-bottom: 5%;
+   }
+
+   /* 
+    */
+     /* ======================footer================== */
+
+  footer{
+    text-align: center;
+    clear: both;
+    background-color: rgb(0, 0, 0,0.85);
+    padding: 5%;
+    color: white;
+    max-width: 100%;
+    min-width: 60%;
+    height: auto;
+    margin-bottom: 1%;
+}
+.social{
+    width: 45px;
+    height: 45px;
+    padding: 8.5px;
+}
+
+/* responsive */
+ @media screen and (max-width: 720px) {
+    .quote-home {
+      left: 20%;
+      top: 240px;
+    }
+} 
