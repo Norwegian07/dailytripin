@@ -163,6 +163,8 @@ position: absolute;
 /* 
 */
 /* =======================blog-catogiries========================== */
+
+
 .catagory-one, .catagory-two {
     max-width: 350px;
     min-width: 250px;
@@ -183,6 +185,7 @@ position: absolute;
    }
 /*  */
 .solotravelers,.culture,.family,.special{
+    display: flex;
     position: absolute;
   font-size: 36px;
   color: white;
