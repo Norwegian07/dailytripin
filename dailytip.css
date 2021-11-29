@@ -130,7 +130,7 @@ position: absolute;
 .navof-blog{
     position: absolute;
    margin-top: -260px;
-  margin-left: 50px;
+  width: auto;
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border: 1px solid black;
