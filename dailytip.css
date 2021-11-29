@@ -177,37 +177,6 @@ position: absolute;
   margin-bottom: 10%;
   
 }
-.catagory-one:hover,.catagory-two:hover{
- opacity: 0.7;
-}
-.catagory-three:hover,.catagory-four:hover{
-    opacity: 0.7;
-   }
-/*  */
-.solotravelers,.culture,.family,.special{
-    display: flex;
-    position: absolute;
-  font-size: 36px;
-  color: white;
-  background-color: rgb(0, 0, 0,0.7);
-}
-.solotravelers{
-    margin-left: 200px ;
-    margin-top: 170px;
-}
-.culture{
-    margin-left: 800px;
-    margin-top: 170px;
-}
-.family{
-    margin-left: 200px;
-    margin-top: 550px;
-}
-.special{
-    margin-left: 710px;
-    margin-top: 550px;
-    font-size: 30px;
-}
 .catagory-three,.catagory-four{
     max-width: 350px;
     min-width: 250px;
@@ -219,6 +188,15 @@ position: absolute;
     margin-left: 12%;
     margin-bottom: 8%;
 }
+.catagory-one:hover,.catagory-two:hover{
+ opacity: 0.7;
+}
+.catagory-three:hover,.catagory-four:hover{
+    opacity: 0.7;
+   }
+/* ---------------------------------------------- */
+
+
 /* =========================ended============================== */
 /* 
  */
@@ -273,9 +251,16 @@ position: absolute;
 .stories-content{
     margin-left: 20%;
 }
-.quote-blog-flights{
-    top: 20%;
-    left: 17%;
+.quote-stories{
+    position: absolute;
+    margin-top: -400px;
+ margin-left: 80px;
+    font-size: 50px;
+    font-family: cursive;
+    padding: 5px;
+    color: orangered;
+    opacity: 0.7;
+    background-color: rgb(64, 224, 208,0.72);
 }
 /* 
  */
