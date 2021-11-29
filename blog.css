@@ -32,8 +32,7 @@ nav ul{
 }
 .content-nav{
     border: 1px solid grey;
-    max-width: 50%;
-    min-width: 30%;
+    width: 30%;
     text-align: center;
     margin-left: 8%;
 }
