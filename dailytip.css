@@ -38,10 +38,11 @@ position: absolute;
 
 .overlay-content{
     position: relative;
+    padding: 30px;
     top: 0%;
     width: 50%;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 100px;
 
 }
 
@@ -69,7 +70,7 @@ position: absolute;
     position: absolute;
     top: 90px;
     left: 40px;
-    font-size: 65px;
+    font-size: 70px;
 }
 .topics-home{
     max-width: 320px;
