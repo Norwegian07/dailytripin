@@ -234,7 +234,7 @@ position: absolute;
    */
   /* ==========--------------=====stories============-------------============== */
   aside{
-      float: left;
+      float: left; 
   }
   .topstories1{
       max-width: 180px;
@@ -251,7 +251,15 @@ position: absolute;
     min-height: 150px;
     position: relative;
     clear: left;
-    
+}
+.recent-stories2{
+    max-width: 600px;
+    min-width: 150px;
+    max-height: 350px;
+    min-height: 150px;
+    position: relative;
+    clear: left;
+    padding-left: 300px;
 }
 .stories-content{
     margin-left: 20%;
@@ -335,6 +343,7 @@ margin-bottom: 5%;
     max-width: 100%;
     min-width: 60%;
     height: auto;
+    margin-top: 5%;
 }
 .social{
     width: 45px;
