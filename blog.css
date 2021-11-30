@@ -41,15 +41,27 @@ p.blogg{
     font-size: 24px;
     padding: 12px;
 }
-/* beachespart1 */
+/*====================== beachespart1 =====================*/
 .beaches-part1{
     max-width: 750px;
     min-width: 700px;
     max-height: 550px;
     min-height: 500px;
 }
-
-
+/* ================museumspart1======================== */
+/*=============== museums================ */
+.museumpart-1{
+    width: 600px;
+    height: 700px; 
+}
+.museumpart1-1{
+    width: 600px;
+    height: 400px;
+}
+.museumpart1-2{
+    width: 500px;
+    height: 400px;
+}
 /*  */
 /* =============== HR ========== */
 hr.main{
