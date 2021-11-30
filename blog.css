@@ -35,7 +35,9 @@ nav ul{
        width: 400px;
     text-align: center;
 }
-
+.content-points li{
+    font-size: 26px;
+}
 /* ======font and margin================ */
 p.blogg{
     font-size: 24px;
@@ -63,6 +65,42 @@ p.blogg{
     height: 400px;
 }
 /*  */
+/* =====================lakes part 1=============== */
+.lakespart-1{
+    width: 750px;
+    height: 550px;
+}
+.lakespart1-1{
+    width: 700px;
+    height: 450px;
+}
+/* 
+ */
+/* =============================AMUSEMENT PARKS=========================== */
+.amusemntparkpart1{
+    width: 700px;
+    height: 450px;  
+}
+/* 
+ */
+ /* ===================waterfalls==================== */
+ /* part1 */
+ .waterfallspart1{
+    width: 400px;
+    height: 450px;
+}
+/* 
+ */
+ /* =====================hotels============== */
+ /* -------hotelwithbestview----------- */
+ .hotelwithbestview1{
+    width: 750px;
+    height: 550px;
+}
+.hotelwithbestview1-2{
+    width: 600px;
+    height: 500px;
+}
 /* =============== HR ========== */
 hr.main{
   height: 10px;
