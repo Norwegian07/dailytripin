@@ -31,24 +31,22 @@ nav ul{
     padding-bottom: 20px;
 }
 .content-nav{
-    border: 5px solid grey;
-    max-width: 500px;
-    min-width: 450px;
+    border:  solid grey 3.5px;
+       width: 400px;
     text-align: center;
-    margin-left: 8%;
 }
 
 /* ======font and margin================ */
-.blogg{
+p.blogg{
     font-size: 24px;
-    padding: 10px;
+    padding: 12px;
 }
 /* beachespart1 */
 .beaches-part1{
-    max-width: 700px;
-    min-width: 600px;
-    max-height: 500px;
-    min-height: 450px;
+    max-width: 750px;
+    min-width: 700px;
+    max-height: 550px;
+    min-height: 500px;
 }
 
 
@@ -75,7 +73,7 @@ footer{
     padding: 8.5px;
 }
 .upp{
-    width: 45px;
-    height: 45px;
+    width: 55px;
+    height: 55px;
     margin-left: 50%;
 }
