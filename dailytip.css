@@ -26,7 +26,7 @@ position: absolute;
 
 .overlay{
     background-color: black;
-    width: 50%;
+    width: 80%;
     height: 100%;
     position: fixed;
     z-index: 1;
@@ -38,11 +38,10 @@ position: absolute;
 
 .overlay-content{
     position: relative;
-    padding: 30px;
     top: 0%;
     width: 50%;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 80px;
 
 }
 
@@ -70,7 +69,7 @@ position: absolute;
     position: absolute;
     top: 90px;
     left: 40px;
-    font-size: 70px;
+    font-size: 65px;
 }
 .topics-home{
     max-width: 320px;
@@ -144,7 +143,7 @@ position: absolute;
 }
 .navof-blog a,.navof-blog li{
     display: inline;
-    padding: 43.78px;
+    padding: 20px;
     margin: 1;
     color: white;
     border: none;
