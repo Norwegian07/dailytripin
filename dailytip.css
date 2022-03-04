@@ -4,75 +4,58 @@ html,body{
 
 }
 /*======================== home ===================== */
-
-.blogmain-img1{
-    max-height: 700px;
-    min-height: 600px;
+#myNav,.openbtn{
+    display: none;
+}
+.pcbar{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(0, 0, 0,0.8);
+position: relative;
+margin: 0px 0px 20px 0px;
+}
+.pcbar a{
+    color: white;
+    text-decoration: none;
+font-size: 24px;
+padding: 25px;
+}
+.navcont{
+    padding: 25px 10px 10px 550px;
+}
+.pcbar a:hover{
+    font-size: 27px;
+ color: deeppink;
+}
+.webname{
+    position: absolute;
+    top: 10px;
+    left: 45px;
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    opacity: 0.65;
+    border: solid 2px black;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+.webname a{
+    text-decoration: none;
+    color: white;
+}
+.webname:hover{
+    background-color: chocolate;
+    border-radius: 25px;
+}
+.blogmain-img{
+    height: 100%;
     position: sticky;
     width: 100%;
     margin-top: -0.5%;
-}
-.quote-home{
-position: absolute;
-    font-size: 64px;
-    font-family: cursive;
-    color: orangered;
-    opacity: 0.7;
-    background-color: rgb(64, 224, 208,0.72);
- margin-top: -380px;
- margin-left: 100px;
-}
-/* overlay */
-
-.overlay{
-    background-color: black;
-    width: 80%;
-    height: 100%;
-    position: fixed;
-    z-index: 1;
-    overflow-x: hidden;
-    transition: 0.5s;
-    top: 0px;
-
-}
-
-.overlay-content{
-    position: relative;
-    top: 0%;
-    width: 50%;
-    text-align: center;
-    margin-top: 80px;
-
-}
-
-.overlay a:hover,.overlay:focus{
-    color: grey;
-}
-
-.overlay a{
-    padding: 10px;
-    text-decoration: none;
-    font-size: 32px;
-    color: white;
     display: block;
-    transition: 0.3s;
-    margin-bottom: 25px;
-}
-
-.overlay .closebtn{
-    position: absolute;
-    top: 50px;
-    left: 50%;
-    font-size: 65px;
-}
-.openbtn{
-    position: absolute;
-    top: 90px;
-    left: 40px;
-    font-size: 65px;
 }
 .topics-home{
-    max-width: 320px;
+    width: 320px;
     height: 350px;
     border: 2px solid black;
     margin-top: 2%;
@@ -93,7 +76,7 @@ position: absolute;
  
 }
 .topics-home2{
-    max-width: 320px;
+    width: 320px;
     height: 350px;
     border: 2px solid black;
     margin-top: 2%;
@@ -109,29 +92,8 @@ position: absolute;
 /* body 
     blogmain=img
 */
- .blogmain-img{ 
-    position: relative;
-    width: 100%;
-    margin-top: -0.5%;
-    max-height: 600px;
-    min-height: 550px;
-}
-.webname{
-    position: absolute;
-    top: 35px;
-    left: 45px;
-    font-size: 36px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    opacity: 0.65;
-    border: solid 2px black;
-    padding: 5px;
-    background-color: black;
-    color: white;
-}
-.webname a{
-    text-decoration: none;
-    color: white;
-}
+
+
 .navof-blog{
     position: absolute;
    margin-top: -260px;
