@@ -8,7 +8,7 @@
     display: block;
 }
 .overlay{
-    background-color: black;
+    background-color: rgb(0, 0, 0,0.9);
     width: 0%;
     height: 50%;
     position: fixed;
@@ -100,5 +100,31 @@ svg{
     font-size: 45px;
     box-shadow: 15px 0px 20px;
 }
+/*----------------- blog page--------------- */
+
+
+ /* ===========================hottours=========================== */
+ .hottours{
+    clear: both;
+    margin-left: 8.5%;
+}
+.hot-topic1,.hot-topic2,.hot-topic3,.hot-topic4{
+    position: relative;
+    float: left;
+    max-width: 170px;
+    min-width: 150px;
+    max-height: 170px;
+    min-height: 150px;
+    margin: 2.5%
+}
+.hot-topic1:hover,.hot-topic2:hover,.hot-topic3:hover,.hot-topic4:hover{
+    opacity: 0.7;
+}
+/* =========================ended============================== */
+
+
+
+
+
 
 }
