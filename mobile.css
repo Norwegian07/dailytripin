@@ -1,6 +1,6 @@
 @media screen and (max-width : 1000px ){
     /* mobile off objects */
-    .blogmain-img,.pcbar{
+    .container-of-blogimg,.pcbar{
         display: none;
     }
 /* overlay */
@@ -77,8 +77,9 @@ svg{
     padding: 20px 15px 15px 15px;
 }
 .webname:hover{
-    background-color: chocolate;
+    background-color: black;
     border-radius: 0px;
+    color: deeppink;
 }
 .topic-container{
     margin: 0px 0px 200px 0px;

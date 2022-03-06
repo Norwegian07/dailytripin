@@ -5,16 +5,37 @@
 
         </title>
         <link rel="stylesheet" href="dailytip.css" type="text/css">
+        <link rel="stylesheet" href="mobile.css" type="text/css">
+
     </head>
     <body>
-        <div class="container-of-blogimg">
-            <img class="blogmain-img1" src="https://dm2306files.storage.live.com/y4m6sU_An2J8XXIeE_DmqTPDupZdoIXrZrYoXDQBgH04DI4k2hJlu7_jPl8DW_hEE5nVeOQw1-ABkeNBSU0Yh-3TkB4iHnpe9nkbs5ykpzkqlaPttdPQxV1p7Eeat7caufO8qbtLsyBRnaHJsqbkVCZRe02JsXA-fsy9nsHXGYA3nq-qbgjnp8yYE2lk2zleGWy?width=1920&height=966&cropmode=none" alt="blogmain-img">
+         <!-- ========================================================================
+          ================================================================================== -->
+         
+      <div class="pcbar">
+        <div class="navcont">
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="stories.html">Stories</a>
+        <a href="flights-hotels.html">Flights&Hotels</a>
+      </div>
+    </div>
+      <!-- ---------------------------======================================================-------------------- -->
+      
+      <div class="container-of-blogimg">
+            <img class="blogmain-img" src="https://dm2306files.storage.live.com/y4m6sU_An2J8XXIeE_DmqTPDupZdoIXrZrYoXDQBgH04DI4k2hJlu7_jPl8DW_hEE5nVeOQw1-ABkeNBSU0Yh-3TkB4iHnpe9nkbs5ykpzkqlaPttdPQxV1p7Eeat7caufO8qbtLsyBRnaHJsqbkVCZRe02JsXA-fsy9nsHXGYA3nq-qbgjnp8yYE2lk2zleGWy?width=1920&height=966&cropmode=none" alt="blogmain-img">
+           </div>
             <div class="webname">
                 <a href="index.html">DAILYTRIPIN..!</a> 
             </div>
-           
+  
+           <!-- ========================================================================
+          ================================================================================== -->
             <div id="myNav"  class="overlay">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
+                  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                </svg></a>
                 <div class="overlay-content">
                 <a href="index.html">Home</a>
                 <a href="blog.html">Blog</a>
@@ -24,10 +45,7 @@
         </div>
             </div>
             <span style="cursor: pointer;" class="openbtn" onclick="openNav()">&#9776</span>
-            <div class="quote-home">
-                Let_The_World_Know_you_!
-            </div>
-            </div>
+      
             <!-- ==============================ended============================ -->
           <div class="topic-container">
               <div class="topics-home">
@@ -103,7 +121,7 @@
               <script>
                    /* Open when someone clicks on the span element */
             function openNav() {
-              document.getElementById("myNav").style.width = "80%";
+              document.getElementById("myNav").style.width = "100%";
             }
             
             /* Close when someone clicks on the "x" symbol inside the overlay */
