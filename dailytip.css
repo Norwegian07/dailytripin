@@ -1,236 +1,57 @@
 html,body{
     width: 100%;
     margin: auto;
-
 }
-/*======================== home ===================== */
-#myNav,.openbtn{
+.openbtn,.mobilenav{
     display: none;
 }
-.pcbar{
+/* ------------------------------ */
+/* ==== PC B A R ==== */
+.pcnav{
     width: 100%;
+    display: block;
     height: 80px;
-    background-color: rgb(0, 0, 0,0.8);
-position: relative;
-margin: 0px 0px 20px 0px;
+    background-color: rgb(0, 0, 0,0.89);
+    position: fixed;
 }
-.pcbar a{
+.pcnav-con a{
     color: white;
     text-decoration: none;
-font-size: 24px;
-padding: 25px;
+    font-size: 26px;
+    padding: 0px 0px 0px 100px;
 }
-.navcont{
-    padding: 25px 10px 10px 550px;
+.pcnav-con{
+    margin: 20px 0px 0px 400px;
 }
-.pcbar a:hover{
-    font-size: 27px;
- color: deeppink;
+.pcnav-con a:hover{
+    color: deeppink;
+    text-decoration: underline;
+    letter-spacing: 1px;
 }
+/* ---------------------------------------- */
 .webname{
+    margin: 5px 0px 0px 100px;
     position: absolute;
-    top: 10px;
-    left: 45px;
-    font-size: 36px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    opacity: 0.65;
-    border: solid 2px black;
-    padding: 5px;
-    background-color: black;
-    color: white;
-}
-.webname a{
-    text-decoration: none;
-    color: white;
-}
-.webname:hover{
-    background-color: chocolate;
+    border: 15px double rgba(222, 219, 255, 0.733);
+    width: 220px;
+    height: 40px;
+    background-color: rgb(0, 0, 0,0.85);
     border-radius: 25px;
 }
-.blogmain-img{
-    height: 100%;
-    position: sticky;
-    width: 100%;
-    margin-top: -0.5%;
-    display: block;
-}
-.topics-home{
-    width: 320px;
-    height: 350px;
-    border: 2px solid black;
-    margin-top: 2%;
-    margin-left: 5%;
-    margin-right: 1%;
-    margin-bottom: 5%;
-    float: left;
-    border: none;
-}
-.topics-home a,.topics-home2 a{
+.webname a{
+    font-size: 26px;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255,0.75);
+    font-weight: bold;
 }
-.homecontent-img{
-   width: 300px;
-   height: 200px;
-   position: relative;
- 
+.text3{
+    margin:  5px 0px 0px 30px;
 }
-.topics-home2{
-    width: 320px;
-    height: 350px;
-    border: 2px solid black;
-    margin-top: 2%;
-    margin-left: 5%;
-    margin-right: 1%;
-    margin-bottom: 5%;
-    clear: right;
-    float: left;
-    border: none;
+.webname a:hover{
+    color: deeppink;
 }
-
-/*----------------- blog page--------------- */
-
- /* ===========================hottours=========================== */
- .hottours{
-     clear: both;
-     margin-left: 8.5%;
- }
- .hot-topic1,.hot-topic2,.hot-topic3,.hot-topic4{
-     position: relative;
-     float: left;
-     max-width: 170px;
-     min-width: 150px;
-     max-height: 170px;
-     min-height: 150px;
-     margin: 2.5%
- }
- .hot-topic1:hover,.hot-topic2:hover,.hot-topic3:hover,.hot-topic4:hover{
-     opacity: 0.7;
- }
- /* =========================ended============================== */
- 
- 
-  /* ================================================================================ */
-  /* =========================================================================================== */
-  /* 
-   */
-  /* ==========--------------=====stories============-------------============== */
-  aside{
-      float: left; 
-  }
-  .topstories1{
-      max-width: 180px;
-      min-width: 100px;
-      max-height: 200px;
-      min-height: 100px;
-      position: relative;
-      margin-bottom: 15%;
-  }
-.recent-stories1{
-    max-width: 600px;
-    min-width: 150px;
-    max-height: 350px;
-    min-height: 150px;
-    position: relative;
-    clear: left;
+.webname:hover{
+    background-color: rgba(222, 219, 255, 0.733);
+    border: 15px double  rgb(0, 0, 0,0.85);
+    color: deeppink;
 }
-.recent-stories2{
-    max-width: 600px;
-    min-width: 150px;
-    max-height: 350px;
-    min-height: 150px;
-    position: relative;
-    clear: left;
-    padding-left: 300px;
-}
-.stories-content{
-    margin-left: 20%;
-}
-.quote-stories{
-    position: absolute;
-    margin-top: -400px;
-    font-size: 45px;
-    font-family: cursive;
-    padding: 5px;
-    color: orangered;
-    opacity: 0.7;
-    background-color: rgb(64, 224, 208,0.72);
-}
-/* 
- */
- /* 
-  */
-  /* ==================================END============================== */
-  /* 
-   */
-   /* ========================FLIGHTS AND HOTELS=============================== */
-   .quote-flights{
-    position: absolute;
-    margin-top: -400px;
-   margin-left: 100px;
-    font-size: 64px;
-    font-family: cursive;
-    padding: 5px;
-    color: red;
-    opacity: 0.7;
-    background-color: rgb(70, 130, 180,0.75);
-   }
-   .hotels,.flight{
-       max-width: 800px;
-       min-width: 400px;
-       max-height: 400px;
-       min-height: 300px;
-       padding: 3%;
-       position: relative;
-       margin: 5%;
-   }
-   .flight-deals,.hotel-deals{
-    float: left;
-   }
-   /* 
-    */
-    /* ======== */
-
-    .booking-portal{
-        clear: both;
-        background-image: url(https://dm2306files.storage.live.com/y4mVi-Jsmornrr6DP6_r0mQKEHWBaRsr7vYP0PyiNyTJ122KkEAVj1DcBLFIypfwhUyVWvyoAt7-W4m3hPQzyNFUSC8Jk9GAmNq8uJC2JHvy2Phs9bzq1tDlE2uyps6DoQJUTV_DNrjzTqFJv2xEheZ1A8ENbIvt6nRt2BsqKrS26L-fsR9P_tHaHF0JCiX0xJ2?width=1920&height=1080&cropmode=none);
-        position: relative;
-    }
-   .book-planes{
-       background-color: rgb(128, 128, 128,0.75);
-       text-align: center;
-       padding: 10px;
-       font-size: 36px;
-       margin-bottom: 10%;
-       margin-top: 10%;
-   }
-   .book-hotels{
-       background-color: rgb(210, 105, 30,0.75);
-       text-align: center;
-       padding: 10px;
-       font-size: 36px;
-margin-bottom: 5%;
-   }
-
-   /* 
-    */
-     /* ======================footer================== */
-
-  footer{
-    text-align: center;
-    clear: both;
-    background-color: rgb(0, 0, 0,0.85);
-    padding: 5%;
-    color: white;
-    max-width: 100%;
-    min-width: 60%;
-    height: auto;
-    margin-top: 5%;
-}
-.social{
-    width: 45px;
-    height: 45px;
-    padding: 8.5px;
-}
-
-

@@ -1,127 +1,82 @@
 @media screen and (max-width : 1000px ){
-    /* mobile off objects */
-    .container-of-blogimg,.pcbar{
-        display: none;
-    }
-/* overlay */
-#myNav{
-    display: block;
-}
-.overlay{
-    background-color: rgb(0, 0, 0,0.9);
-    width: 0%;
-    height: 50%;
-    position: fixed;
-    z-index: 1;
-    overflow-x: hidden;
-    transition: 0.5s;
-    top: 0px;
-}
+/* ==== M O B I L E  B A R ==== */
 
-.overlay-content{
+.pcnav{
+    display: none;
+}
+ .text1{
+     width: 80px;
+     height: 10px;
+     background-color: black;
+ }
+.openbtn{
+    margin: 60px 0px 10px 100px;
     position: relative;
-    top: 0%;
-    width: 50%;
-    text-align: center;
-    margin: 150px 0px 0px 200px;
-}
-
-.overlay a:hover,.overlay:focus{
-    color: grey;
-}
-
-.overlay a{
-    padding: 10px;
-    text-decoration: none;
-    font-size: 52px;
-    color: white;
     display: block;
-    transition: 0.3s;
-    margin-bottom: 25px;
 }
-
-.overlay .closebtn{
-    position: absolute;
-    top: 60px;
-    margin-left: 650px;
+.openbtn:hover{
+    cursor: pointer;
+}
+/* ------------- */
+.closebtn{
+    position: relative;
+  margin: 100px 0px 0px 500px;
 }
 svg{
-    width: 65px;
-    height: 65px;
+    color: white;
 }
-.openbtn{
-    position: absolute;
-    font-size: 65px;
+/* ---------------- */
+.mobilenav{
+    position: fixed;
+    overflow: hidden;
+    width: 0%;
+    height: 50%;
+    transition: 0.3s;
+    margin: -50px 0px 0px 0px;
+    z-index: 1;
+    background-color: rgb(0, 0, 0,0.89);
+    text-align: center;
+    top: 0;
     display: block;
-    margin: -180px 0px 0px 150px;
+}
+
+.nav-con a{
+font-size: 50px;
+text-decoration: none;
+color: white;
+font-family: 'Times New Roman', Times;
+display: block;
+padding: 20px;
+}
+/* ------------------------------ */
+.webname a{
+      font-size: 56px;
+      text-decoration: none;
+      color: rgb(255, 255, 255,0.75);
+      font-weight: bold;
 }
 .webname{
-    position: absolute;
-    top: 25px;
-    left: 45px;
-    height: 60px;
-    width: auto;
-    font-size: 36px;
-    letter-spacing: 1px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    opacity: 0.65;
-    border: solid 2px black;
-    padding: 5px;
-    background-color: black;
-    color: white;
-    margin: 10px 0px 55px 200px;
+    border: 15px double rgba(222, 219, 255, 0.733);
+    width: 430px;
+    height: 100px;
+    background-color: rgb(0, 0, 0,0.85);
+    border-radius: 25px;
+    margin: -110px 0px 0px 300px;
 }
-.webname a{
-    text-decoration: none;
-    color: white;
-    padding: 20px 15px 15px 15px;
+.text3{
+    margin:  10px 0px 0px 30px;
 }
-.webname:hover{
-    background-color: black;
-    border-radius: 0px;
-    color: deeppink;
+
+#greetings{
+   position: absolute;
+   margin-top: 180px;
+   font-size: 55px;
 }
-.topic-container{
-    margin: 0px 0px 200px 0px;
-}
-.homecontent-img{
-    width: 100%;
-    height: 100%;
- }
- .topics-home,.topics-home2{
-    width: 100%;
-    height: 1200px;
-    border: 2px solid black;
-    margin-top: 2%;
-    margin-left: 0%;
-    margin-right: 0%;
-    margin-bottom: 5%;
-    float: left;
-    border: none;
-    font-size: 45px;
-    box-shadow: 15px 0px 20px;
-}
-/*----------------- blog page--------------- */
 
 
- /* ===========================hottours=========================== */
- .hottours{
-    clear: both;
-    margin-left: 8.5%;
-}
-.hot-topic1,.hot-topic2,.hot-topic3,.hot-topic4{
-    position: relative;
-    float: left;
-    max-width: 170px;
-    min-width: 150px;
-    max-height: 170px;
-    min-height: 150px;
-    margin: 2.5%
-}
-.hot-topic1:hover,.hot-topic2:hover,.hot-topic3:hover,.hot-topic4:hover{
-    opacity: 0.7;
-}
-/* =========================ended============================== */
+
+
+
 
 
 
