@@ -55,3 +55,10 @@ html,body{
     border: 15px double  rgb(0, 0, 0,0.85);
     color: deeppink;
 }
+#greetings{
+    font-size: 30px;
+    color: black;
+    position: absolute;
+    font-weight: bolder;
+    margin: 100px 0px 0px 25px;
+}
