@@ -57,7 +57,7 @@ padding: 20px;
 }
 .webname{
     border: 15px double rgba(222, 219, 255, 0.733);
-    width: 430px;
+    width: 440px;
     height: 100px;
     background-color: rgb(0, 0, 0,0.85);
     border-radius: 25px;
@@ -72,10 +72,37 @@ padding: 20px;
     margin: 50px 0px 0px 25px;
     font-size: 50px;
 }
-
-
-
-
+.recent{
+    width: 90%;
+    height: 1000px;
+    border: 2px solid black;
+    position: relative;
+    margin: 150px 15px 25px 45px;
+    box-shadow: 5px 2px 15px 5px black;
+}
+.box{
+    width: 95%;
+    height: 980px;
+    margin: 20px 0px 0px 20px;
+    background-color: whitesmoke;
+}
+.homeimg{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    box-shadow: 5px 5px 20px rgb(0, 0, 0,0.75) ;
+}
+.recent a{
+    text-decoration: none;
+    color: black;
+}
+.text5{
+    font-size: 50px;
+    font-weight: bold;
+}
+.text6{
+    font-size: 40px;
+}
 
 
 
